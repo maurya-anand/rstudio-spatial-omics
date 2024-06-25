@@ -1,0 +1,12 @@
+services:
+  rstudio:
+    build: .
+    volumes:
+      - .:/home/rstudio/workspace:rw
+    ports:
+      - "8787:8787"
+    environment:
+      - DISABLE_AUTH=true
+      - RSTUDIO_SESSION_TIMEOUT=0
+      - USERID=1001
+      - GROUPID=1001
