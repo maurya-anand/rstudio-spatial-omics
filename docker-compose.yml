@@ -1,6 +1,6 @@
 services:
   rstudio:
-    build: .
+    image: ghcr.io/maurya-anand/rstudio-spatial-omics:latest
     volumes:
       - .:/home/rstudio/workspace:rw
     ports:
