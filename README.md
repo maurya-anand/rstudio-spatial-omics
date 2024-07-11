@@ -60,4 +60,4 @@ The `compose.yml` file is configured to build the RStudio image, mount a volume 
 
 ### Accessing RStudio
 
-Once the container is running, open your web browser and go to http://localhost:8787.
+Once the container is running, open your web browser and go to [http://localhost:8787](http://localhost:8787).
